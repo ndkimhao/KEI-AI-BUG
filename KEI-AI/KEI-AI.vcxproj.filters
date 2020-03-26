@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="KeiAi">
+      <UniqueIdentifier>{1c829b47-2ebc-43b1-8adb-9885733a52e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeiAi\Headers">
+      <UniqueIdentifier>{eb313f98-0a9d-4ec3-a849-80cd382c85cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{760d4568-0b63-4b3d-a8b5-c1fd40e57109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Web">
+      <UniqueIdentifier>{fe23f413-1fc0-447f-bc9c-74412a530481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Http">
+      <UniqueIdentifier>{333ac5c4-36b7-4e31-87e2-a1b5fd16bb98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Ws">
+      <UniqueIdentifier>{dc1040f5-a83f-4ef6-b741-33ab67a9714a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Ai">
+      <UniqueIdentifier>{19938639-a788-4db4-8117-d3380ed2f3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Web\Dist">
+      <UniqueIdentifier>{3d6c405b-e7fe-4bec-a738-5eaa1341678e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kei\consts.h">
+      <Filter>KeiAi\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kei\helpers.h">
+      <Filter>KeiAi\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kei\stdafx.h">
+      <Filter>KeiAi</Filter>
+    </ClInclude>
+    <ClInclude Include="kei\types.h">
+      <Filter>KeiAi\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="server\stdafx.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server\http_parser.h">
+      <Filter>Server\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="server\server_listener.h">
+      <Filter>Server\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="server\url.h">
+      <Filter>Server\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="server\ws.h">
+      <Filter>Server\Ws</Filter>
+    </ClInclude>
+    <ClInclude Include="server\ws_key.h">
+      <Filter>Server\Ws</Filter>
+    </ClInclude>
+    <ClInclude Include="server\ws_frame.h">
+      <Filter>Server\Ws</Filter>
+    </ClInclude>
+    <ClInclude Include="server\ai_manager.h">
+      <Filter>Server\Ai</Filter>
+    </ClInclude>
+    <ClInclude Include="server\log_queue.h">
+      <Filter>Server\Ai</Filter>
+    </ClInclude>
+    <ClInclude Include="kei\AI.h">
+      <Filter>KeiAi\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kei\HashTable.h">
+      <Filter>KeiAi\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="server\log_manager.h">
+      <Filter>Server\Ai</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\eval_cell.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\init.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\KeiAi.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\move.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\pattern.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\search.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\utils.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="server\server_main.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\http_parser.cpp">
+      <Filter>Server\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="server\server_listener.cpp">
+      <Filter>Server\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="server\url.cpp">
+      <Filter>Server\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="server\ws.cpp">
+      <Filter>Server\Ws</Filter>
+    </ClCompile>
+    <ClCompile Include="server\ws_send_frame.cpp">
+      <Filter>Server\Ws</Filter>
+    </ClCompile>
+    <ClCompile Include="server\ws_recv_frame.cpp">
+      <Filter>Server\Ws</Filter>
+    </ClCompile>
+    <ClCompile Include="server\ai_manager.cpp">
+      <Filter>Server\Ai</Filter>
+    </ClCompile>
+    <ClCompile Include="server\log_queue.cpp">
+      <Filter>Server\Ai</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\eval_search.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\win_move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\alpha_beta.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\impl_alpha_beta.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\think.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="kei\HashTable.cpp">
+      <Filter>KeiAi</Filter>
+    </ClCompile>
+    <ClCompile Include="server\log_manager.cpp">
+      <Filter>Server\Ai</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web\src\assets\styles.css">
+      <Filter>Web</Filter>
+    </None>
+    <None Include="web\src\index.html">
+      <Filter>Web</Filter>
+    </None>
+    <None Include="web\src\assets\scripts.js">
+      <Filter>Web</Filter>
+    </None>
+    <None Include="web\Gruntfile.js">
+      <Filter>Web</Filter>
+    </None>
+    <None Include="web\dist\index.html">
+      <Filter>Web\Dist</Filter>
+    </None>
+    <None Include="web\dist\bundled.css">
+      <Filter>Web\Dist</Filter>
+    </None>
+    <None Include="web\dist\bundled.js">
+      <Filter>Web\Dist</Filter>
+    </None>
+    <None Include="web\src\assets\open_moves.js">
+      <Filter>Web</Filter>
+    </None>
+    <None Include="web\src\open_moves.html">
+      <Filter>Web</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="web\src\favicon.ico">
+      <Filter>Web</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
